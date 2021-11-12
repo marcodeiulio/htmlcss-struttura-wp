@@ -34,7 +34,9 @@ header {
 }
 
 .clearfix::after {
-	
+	content: "";
+	width: 100%;
+	display: table;
 }
 
 #mini-header {
