@@ -10,11 +10,12 @@
 	margin: 20px auto;
 }
 
-header {
-	background-color: #e579e6;
-	height: 80px;
+#main-header {
 	width: 100%;
-
+	/* da rimuovere */
+	height: 80px;
+	background-color: #e579e6;
+	
 }
 
 .block {
@@ -23,14 +24,17 @@ header {
 }
 
 #introduction {
+	/* da rimuovere */
 	height: 400px;
 	background-color: #e1d67a;
+
 }
 
 #table-container {
-	height: 500px;
-	background-color: #0086fe;
 	margin-bottom: 10px;
+	/* da rimuovere */
+	background-color: #0086fe;
+	
 }
 
 .clearfix::after {
@@ -40,16 +44,21 @@ header {
 }
 
 #mini-header {
-	height: 60px;
 	width: 100%;
+	/* da rimuovere */
+	height: 60px;
 	background-color: #abcfe7;
+
 }
 
 .table {
-	background-color: #abcfe7;
 	float: left;
+	margin: 20px 0;
+	/* da rimuovere */
 	height: 400px;
-	margin-top: 20px;
+	background-color: #abcfe7;
+
+	padding: 0 10px;
 }
 
 .sidebar {
@@ -63,7 +72,9 @@ header {
 }
 
 footer {
-	height: 50px;
 	width: 100%;
+	/* da rimuovere */
+	height: 50px;
 	background-color: #8801fe;
+	
 }
